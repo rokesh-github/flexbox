@@ -1,0 +1,84 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.container{
+    margin: auto;
+    padding: auto;
+    width: 1300px;
+}
+.heading{
+    font-size:  2.5rem;
+    text-align: center;
+}
+.product{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    justify-content: space-evenly;
+}
+
+.product-items{
+    margin: 20px;
+    padding: 20px;
+    width: 350px;
+    height: auto;
+    box-shadow: 1px 1px 3px gray;
+
+}
+.image-contain{
+    width: 100px;
+}
+.image{
+    height:auto;
+    width:100%;
+    object-fit: cover;
+}
+.topic{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.gram{
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+    font-weight: lighter;
+    color: grey;
+} 
+
+.text{
+    text-align: center;
+    font-family:'Gill Sans MT';
+    color: green; 
+    padding-top: 20px;
+}
+.price{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0; 
+}
+.high-price{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0; 
+}
+.buy1{
+    padding:0.3rem;
+    padding-top: 1rem;
+    display: flex;
+}
+.buy{
+    background-color: rgb(29, 232, 29);
+    color: antiquewhite;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-right: 0;
+    border: none; 
+    
+}
+
