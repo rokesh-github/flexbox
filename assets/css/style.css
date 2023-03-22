@@ -1,11 +1,10 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 .container{
-    margin: auto;
-    padding: auto;
     width: 1300px;
+    justify-content: center;
 }
 .heading{
     font-size:  2.5rem;
@@ -15,12 +14,10 @@
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    padding: auto;
-    justify-content: space-evenly;
 }
 
 .product-items{
+    /* justify-content: center; */
     margin: 20px;
     padding: 20px;
     width: 350px;
@@ -30,8 +27,10 @@
 }
 .image-contain{
     width: 100px;
+    justify-content: center;
 }
 .image{
+    align-items: center;
     height:auto;
     width:100%;
     object-fit: cover;
@@ -41,9 +40,7 @@
     padding-bottom: 0;
     text-align: center;
 }
-
 .gram{
-    margin: 0;
     padding-top: 0;
     text-align: center;
     font-weight: lighter;
@@ -78,7 +75,6 @@
     font-size: 1.1rem;
     padding: 0.5rem;
     margin-right: 0;
-    border: none; 
-    
+    border: none;   
 }
 
